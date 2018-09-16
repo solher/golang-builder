@@ -1,4 +1,4 @@
-FROM golang:1.10-alpine
+FROM golang:1.11-alpine
 MAINTAINER Fabien Herfray <herfray.fabien@gmail.com>
 
 RUN apk add --update --no-cache git make gcc musl-dev

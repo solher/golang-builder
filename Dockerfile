@@ -1,4 +1,4 @@
-FROM golang:1.14-alpine
+FROM golang:1.16-alpine
 RUN apk add --update --no-cache git openssh make gcc musl-dev
 RUN go get -u github.com/solher/forklift \
     && go get -u golang.org/x/lint/golint \
